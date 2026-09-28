@@ -1,0 +1,7 @@
+I started digging into the 228-billion-gallon data-center claim because I thought the number was being used without enough context. Some of the first answers I accepted were wrong. That is part of the article too.
+
+The number itself is legitimate under the cited Berkeley Lab model. It does not mean 228 billion gallons flowed through server buildings, and it does not tell you whether a particular town has enough water for the next project. Those are different questions, and I followed both of them as far as I could.
+
+I put the full article, source ledger, calculations, and reproduction script in one public repository so nobody has to take my word for any of it:
+
+[PUBLIC URL]
