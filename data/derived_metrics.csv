@@ -1,0 +1,10 @@
+metric,value,unit,period_or_scope,notes
+US_data_center_electricity_2023,176,TWh,United States 2023,LBNL 2024 model input
+US_data_center_direct_water_2023,66,billion liters,United States 2023,LBNL 2024 model input
+electricity_source_water_intensity,4.52,L/kWh,model factor,LBNL 2024 model input
+reconstructed_direct_water,17.44,billion US gallons,United States 2023,66 billion liters converted
+reconstructed_electricity_related_water,210.15,billion US gallons,United States 2023,176 billion kWh x 4.52 L/kWh
+reconstructed_total_water,227.59,billion US gallons,United States 2023,rounded publicly to about 228 billion
+reconstructed_direct_share,7.66,percent,United States 2023,derived from reconstructed components
+reconstructed_electricity_related_share,92.34,percent,United States 2023,derived from reconstructed components
+continuous_500MW_annual_energy,4.38,TWh,365-day illustration,500 MW x 8760 hours
