@@ -1,0 +1,13 @@
+Subject: Local source package: what the 228B-gallon data-center claim actually measures
+
+I started checking the viral 228-billion-gallon data-center water claim because I thought it was missing context. I expected to disprove more of it than I did.
+
+The national number can be reconstructed from Berkeley Lab’s published model, but it does not establish what any particular project would do to a local water system. I ended up tracing the difference between direct and electricity-related consumption, peak local capacity, cooling choices, staged utility commitments, and who carries infrastructure risk when large-load forecasts are wrong.
+
+I am a nurse and I also work on AI systems. I published the article, source register, calculations, and reproduction script openly here:
+
+[PUBLIC URL]
+
+You are welcome to use the research as a source package. I am also available if a reporter wants to discuss the methodology or how to evaluate a specific local proposal.
+
+Robert Thomas King
