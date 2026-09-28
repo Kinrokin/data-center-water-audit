@@ -1,0 +1,13 @@
+Subject: Source-backed audit of the 228B-gallon data-center water claim
+
+I started with a simple question: is the viral 228-billion-gallon figure real, and what does it actually tell a local community?
+
+I reconstructed the national estimate from Berkeley Lab’s reported inputs and then separated that footprint from the evidence needed to judge a specific project: source water, peak utility capacity, cooling design, backup supply, grid demand, cost allocation, and enforceable commitments.
+
+I am a local nurse who also works on AI systems. The complete package is public and reproducible, including the article, source ledger, calculation script, and records-request templates:
+
+[PUBLIC URL]
+
+If the newsroom is covering data-center development or large utility loads, use any of it that is useful. I can also provide a shorter local op-ed or answer methodology questions.
+
+Robert Thomas King
