@@ -1,0 +1,79 @@
+name: Publish Bartlett portfolio companion
+on:
+  push:
+    branches: [bartlett-record-release-20260928]
+    paths: ['.github/workflows/bartlett-publish.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: bartlett-record-release-20260928
+      - name: Recover the verified public-source capture
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import urllib.request, os, io, zipfile, pathlib, hashlib, json
+          url='https://api.github.com/repos/Kinrokin/data-center-water-audit/actions/artifacts/10994036435/zip'
+          req=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'Bartlett-source-preservation'})
+          with urllib.request.urlopen(req,timeout=60) as response:
+              content=response.read(20000001)
+          if len(content)>20000000: raise RuntimeError('Artifact size limit')
+          expected='62ceeeec2c15dd985eb6202e5fa4a56dc0f1a9ce3254f64af5a8ffeff34a0243'
+          if hashlib.sha256(content).hexdigest()!=expected: raise RuntimeError('Source artifact hash mismatch')
+          root=pathlib.Path('portfolio/bartlett-record/primary');root.mkdir(parents=True,exist_ok=True)
+          allowed={'June22_2026_City_Packet.pdf','City_Bartlett_Statement_2026-09-21.pdf','City_UW_YMCA_Statement_2026-09-28.pdf','Council_Agenda_2026-09-28.pdf','City_Procurement_Policy.pdf','Bartlett_Public_Resolution_2026-09-25.pdf','AG_SJSD_Letter_2024-07-10.pdf','ACQUISITION_LOG.json'}
+          seen=set()
+          with zipfile.ZipFile(io.BytesIO(content)) as z:
+              for item in z.infolist():
+                  name=pathlib.PurePosixPath(item.filename).name
+                  if name not in allowed: continue
+                  if name in seen or item.file_size>10000000: raise RuntimeError('Unexpected artifact entry')
+                  data=z.read(item)
+                  if name.endswith('.pdf') and not data.startswith(b'%PDF'): raise RuntimeError('Not PDF')
+                  (root/name).write_bytes(data);seen.add(name)
+          if seen!=allowed: raise RuntimeError('Required primary document missing')
+          print('Recovered seven native public PDFs and the acquisition log; source hash verified.')
+          PY
+      - name: Check all companion calculations
+        run: |
+          python portfolio/bartlett-record/reproduce.py > portfolio/bartlett-record/VALIDATION.json
+      - name: Inventory and package the companion
+        run: |
+          python - <<'PY'
+          import pathlib,hashlib,json,zipfile,csv
+          r=pathlib.Path('portfolio/bartlett-record')
+          excluded={'MANIFEST.json','SHA256SUMS.txt','Bartlett_Portfolio_Companion.zip','Bartlett_Portfolio_Companion.zip.sha256'}
+          files=[p for p in sorted(r.rglob('*')) if p.is_file() and p.name not in excluded]
+          entries=[{'path':str(p.relative_to(r)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]
+          (r/'MANIFEST.json').write_text(json.dumps({'release':'2026-09-28-r1','edition':'Public portfolio companion; not the full separately distributed 114-file dossier','files':entries},indent=2))
+          files.append(r/'MANIFEST.json')
+          (r/'SHA256SUMS.txt').write_text('\n'.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(r)) for p in files)+'\n')
+          files.append(r/'SHA256SUMS.txt')
+          zpath=r/'Bartlett_Portfolio_Companion.zip'
+          with zipfile.ZipFile(zpath,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+              for p in files:z.write(p,pathlib.Path('Bartlett_Portfolio_Companion')/p.relative_to(r))
+          (r/'Bartlett_Portfolio_Companion.zip.sha256').write_text(hashlib.sha256(zpath.read_bytes()).hexdigest()+'  '+zpath.name+'\n')
+          print('Packaged',len(files),'files; bytes',zpath.stat().st_size)
+          PY
+      - name: Commit only the Bartlett portfolio folder
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add portfolio/bartlett-record
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add verified public originals, validation, and downloadable Bartlett companion'
+            git push origin HEAD:bartlett-record-release-20260928
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bartlett-portfolio-companion
+          path: portfolio/bartlett-record/
+          retention-days: 30
+          if-no-files-found: error
