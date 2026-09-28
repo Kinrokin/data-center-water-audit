@@ -6,7 +6,7 @@ The national number can be reconstructed from Berkeley Lab’s published model, 
 
 I am a nurse and I also work on AI systems. I published the article, source register, calculations, and reproduction script openly here:
 
-[PUBLIC URL]
+https://github.com/Kinrokin/data-center-water-audit
 
 You are welcome to use the research as a source package. I am also available if a reporter wants to discuss the methodology or how to evaluate a specific local proposal.
 
