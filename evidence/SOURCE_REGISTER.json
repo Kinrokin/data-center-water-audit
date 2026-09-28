@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "title": "2024 United States Data Center Energy Usage Report",
+    "author_date": "Lawrence Berkeley National Laboratory / U.S. Department of Energy. December 2024; modeled 2023 operations.",
+    "url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+    "scope": "Water and Emission Impacts, printed pages 55–58. Historical model: 176 TWh, 66 billion liters direct consumption, 4.52 L/kWh electricity-source intensity. Not a national meter census or AI-only inventory. Exact 2028 figure endpoints are not used."
+  },
+  {
+    "id": 2,
+    "title": "Spatially and Temporally Detailed Water and Carbon Footprints of U.S. Electricity Generation and Use",
+    "author_date": "Siddik, Shehabi, Rao and Marston; Water Resources Research. 2024.",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR038350",
+    "scope": "Water IMPACT: electricity flows and source-water coefficients. Average attribution differs from the causal response to an added load; hourly electricity data do not make every water input an hourly observation."
+  },
+  {
+    "id": 3,
+    "title": "Water use across the conterminous United States, water years 2010–20",
+    "author_date": "U.S. Geological Survey. January 2025; observation/model period 2010–2020.",
+    "url": "https://www.usgs.gov/publications/water-use-across-conterminous-united-states-water-years-2010-20",
+    "scope": "DOI 10.3133/pp1894D. Modeled CONUS assessment. Different-year benchmark used for scale, not a same-year sector share."
+  },
+  {
+    "id": 4,
+    "title": "Cooling Water Intakes",
+    "author_date": "U.S. Environmental Protection Agency. Agency guidance.",
+    "url": "https://www.epa.gov/cooling-water-intakes",
+    "scope": "Intake impingement and entrainment describe a mechanism, not harm established at an unnamed facility."
+  },
+  {
+    "id": 5,
+    "title": "Data Centers in Virginia: study summary",
+    "author_date": "Virginia Joint Legislative Audit and Review Commission. December 2024.",
+    "url": "https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp",
+    "scope": "Then-current water sustainability assessment, differing local demands and future concerns. Not approval of every future proposal."
+  },
+  {
+    "id": 6,
+    "title": "Water Reuse Case Study: Quincy, Washington",
+    "author_date": "U.S. Environmental Protection Agency. Includes 2021 operations.",
+    "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+    "scope": "Utility financing; estimated 138 million gallons/year avoided potable demand; makeup supply and 2021 canal-to-groundwater switch. Avoided potable demand is not zero evaporation. The source page’s inconsistent 2.1-billion-gallon/8-million-liter conversion is not used."
+  },
+  {
+    "id": 7,
+    "title": "Cooling Water Efficiency Opportunities for Federal Data Centers",
+    "author_date": "U.S. Department of Energy, FEMP. Engineering guidance.",
+    "url": "https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers",
+    "scope": "Cooling stages, WUE/PUE, blowdown and cooling alternatives. Design options are not evidence of realized performance at a named facility."
+  },
+  {
+    "id": 8,
+    "title": "Sustainable by design: Next-generation datacenters consume zero water for cooling",
+    "author_date": "Microsoft. December 9, 2024. Operator announcement.",
+    "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/",
+    "scope": "Staged deployment; administrative water use and electricity tradeoff. Not zero lifecycle water or proof of fleet-wide completion."
+  },
+  {
+    "id": 9,
+    "title": "Clean Air Act Resources for Data Centers",
+    "author_date": "U.S. Environmental Protection Agency. Agency guidance.",
+    "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+    "scope": "Stationary engines, turbines and operating requirements. Actual emissions and exposure require operating data."
+  },
+  {
+    "id": 10,
+    "title": "Technology Changes, but Energy Efficiency Principles Remain Steadfast in Data Center Design",
+    "author_date": "U.S. Department of Energy, FEMP. Engineering guidance.",
+    "url": "https://www.energy.gov/cmei/femp/articles/technology-changes-energy-efficiency-principles-remain-steadfast-data-center",
+    "scope": "Efficiency and heat recovery. Recoverable heat is not automatically measured displacement of other heating."
+  },
+  {
+    "id": 11,
+    "title": "Key Questions on Energy and AI: Executive summary",
+    "author_date": "International Energy Agency. 2026; estimates for 2025.",
+    "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+    "scope": "Estimated global data-center electricity growth of 17% and AI-focused growth of 50%. Not an indefinitely exponential law or a new U.S. water forecast."
+  },
+  {
+    "id": 12,
+    "title": "Generative AI at Work",
+    "author_date": "Brynjolfsson, Li and Raymond; Quarterly Journal of Economics. 2025.",
+    "url": "https://doi.org/10.1093/qje/qjae044",
+    "scope": "Staggered deployment involving 5,172 agents. Approximately 15% higher issues resolved per hour on average, with heterogeneous effects. Not a resource-savings study or an economy-wide randomized trial."
+  },
+  {
+    "id": 13,
+    "title": "A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being",
+    "author_date": "Afshar and colleagues; NEJM AI. Online November 26, 2025; December 2025 issue.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/",
+    "scope": "24-week stepped-wedge trial; 66 ambulatory physicians/advanced practice practitioners. Note-time reduction 0.36 hours per normalized eight hours of patient time; exhaustion/disengagement improved; professional fulfillment did not meet the co-primary threshold. No quota-change intervention or downstream patient-outcome result is established here. Full text revisited September 25, 2026."
+  },
+  {
+    "id": 14,
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "author_date": "METR. July 10, 2025.",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "scope": "16 developers, 246 tasks; AI-allowed tasks took 19% longer. Access was randomized; use was not compulsory."
+  },
+  {
+    "id": 15,
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "author_date": "METR. February 24, 2026.",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "scope": "Changes in tools, participation and time measurement limit direct extrapolation of the earlier result."
+  },
+  {
+    "id": 16,
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "author_date": "Zheng and colleagues; NeurIPS 2023 Datasets and Benchmarks.",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "scope": "Useful human-preference agreement on studied benchmarks alongside position, verbosity and self-enhancement biases. Preference agreement is not universal factual verification."
+  },
+  {
+    "id": 17,
+    "title": "AI Risk Management Framework: Core",
+    "author_date": "National Institute of Standards and Technology. AI RMF 1.0.",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "scope": "Voluntary, context-sensitive testing and monitoring guidance. Not a certification of a named system or mandatory human approval of every output."
+  },
+  {
+    "id": 18,
+    "title": "Estimating and Reporting Avoided Emissions",
+    "author_date": "GHG Protocol. Methodological working paper.",
+    "url": "https://ghgprotocol.org/estimating-and-reporting-avoided-emissions",
+    "scope": "Reference scenarios and comparative impacts. Useful new capability is not automatically an avoided-resource result; productivity alone does not establish physical substitution."
+  },
+  {
+    "id": 19,
+    "title": "Commissioner See’s Remarks on the Large Load Show Cause Orders, E-7 to E-12",
+    "author_date": "Federal Energy Regulatory Commission. June 18, 2026.",
+    "url": "https://www.ferc.gov/news-events/news/commissioner-sees-remarks-large-load-show-cause-orders-e-7-e-12-june-18-2026-open",
+    "scope": "Explains shared-cost responsibilities, stranded-asset risk and avoiding duplicate security where retail credit support already exists. Remarks and proceedings are not a universal retail tariff. Revisited September 25, 2026."
+  },
+  {
+    "id": 20,
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "author_date": "Abramson and colleagues; Nature 630, 493–500. May 8, 2024.",
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "scope": "Original research on structure/interactions prediction, with benchmark improvements and stated limitations. Not a claim that a prediction itself cures a disease or establishes sector-wide environmental benefits. Primary text consulted September 25, 2026."
+  },
+  {
+    "id": 21,
+    "title": "Fact Sheet: FERC Takes Action to Supercharge America’s Grid for Efficiency, Reliability, and a Bold Energy Future",
+    "author_date": "Federal Energy Regulatory Commission. June 18, 2026.",
+    "url": "https://ferc.gov/news-events/news/fact-sheet-ferc-takes-action-supercharge-americas-grid-efficiency-reliability-and",
+    "scope": "Official explanation of region-specific show-cause proceedings, flexible-load service and preserved state retail/siting roles. It does not enact the article’s illustrative 50/150-MW water-performance gate. Consulted September 25, 2026."
+  }
+]

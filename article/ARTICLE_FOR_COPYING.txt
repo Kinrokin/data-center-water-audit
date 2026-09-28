@@ -1,0 +1,226 @@
+About That 228 Billion Gallons
+
+Robert Thomas King | September 25, 2026
+
+I went into this wanting to know what the number meant.
+
+The post had a dry faucet, cracked ground, and 228 billion gallons of water attributed to American data centers. It asked whether we were bothered that somebody had given away our water without asking. Before I accepted that conclusion, I wanted to see how we got from a national estimate to somebody's claim about my community.
+
+I use AI. I work on AI systems. There are things I want to build with it, and I am interested in what it can put within reach of someone who cannot afford to hire an expert every time they need help. I am not approaching this as a campaign to make people feel guilty for using a computer.
+
+I also do not owe a company my defense because I like its technology.
+
+Some of the explanations I initially accepted were wrong. The post already separated direct water consumption from electricity-related consumption. It mentioned ordinary digital services as well as AI. Saying power plants return much of the water they withdraw did not answer the estimate being cited, because the estimate concerned consumption.
+
+That needed correcting. It did not mean every conclusion somebody attached to the picture became true.
+
+This is where I am coming from politically, too. I want people to have room to direct their own lives. I want useful businesses to succeed and people without much money to gain access to better tools. When somebody's decisions affect people who did not make them, responsibility has to follow. That applies to a developer reserving public infrastructure, a government restricting access, and me deciding what to put my name on.
+
+I am not looking for the point halfway between two arguments. I want to know which claims hold up.
+
+Where the 228 billion came from
+
+Berkeley Lab's 2024 report puts direct consumption at U.S. data centers at about 17.4 billion gallons for 2023. The much larger piece, roughly 210.2 billion gallons, is assigned to the electricity those facilities used. Add them and you get the number in the post.
+
+That was an estimate. Nobody collected a matching set of water-meter readings from every data center and power plant in the country. The report combined its estimate of data-center electricity with water-consumption factors for the electricity supply. It covers data centers doing all kinds of work, not just generative AI.
+
+The calculation is worth keeping available: 176 billion kilowatt-hours times 4.52 liters per kilowatt-hour, plus 66 billion liters of direct consumption. Converted to U.S. gallons, that comes to 227.59 billion. Calling it about 228 billion is sensible. Printing more decimal places would just make an estimate look more exact than it is.
+
+Most of the water in that account was consumed in generating electricity. It still counts. If I need a power plant to operate my business, I cannot claim the consequences have nothing to do with me because the plant has a different owner.
+
+What the split tells us is where to investigate. The server building and the generating plant may draw on different water systems. Put all 228 billion gallons in the town hosting the servers and you have sent the reader to the wrong place.
+
+The same problem comes up with electrical capacity. A 500-megawatt connection on paper is not a campus using 500 megawatts every minute of the year. Run it at that load for the whole year and it needs 4.38 terawatt-hours. To know how close it came, read the operating records.
+
+For a proposed campus, there is more to find out. Its electricity could change how existing plants run, where power is imported from, or what gets built. The study behind the water accounting follows electricity generation and transfers. It does not give us the alternative history of every grid without every new customer. I would want a credible estimate of those changes, rather than letting either the applicant or the critic choose the average that makes their argument easiest.
+
+This also matters around hydropower. Water passing through a turbine is not the water being counted as evaporation from a reservoir. When a reservoir has several purposes, the accounting has to decide how much evaporation to assign to electricity. That choice belongs in the source notes. Otherwise somebody can change the reported footprint by changing the method and leave the reader thinking the reservoir itself behaved differently.
+
+Whose water are we talking about?
+
+My first mistake was accepting an explanation about water being returned without checking whether it answered the figure we had in front of us.
+
+USGS's 2010–2020 assessment puts freshwater withdrawals for thermoelectric generation at about 82.7 billion gallons a day. Consumption was about 2.9 billion. A plant can take in a large volume and return much of it; the part it consumes is a different quantity. The Berkeley Lab estimate we were arguing about concerns consumption. Pointing at returned water does not make that estimate go away.
+
+For comparison, USGS puts crop-irrigation consumption at about 75.7 billion gallons a day over those years. Spread the reconstructed 2023 data-center footprint across a year and it averages about 624 million gallons a day. That is roughly eight-tenths of one percent of the irrigation figure.
+
+You cannot compare a 2010–2020 farming average with a 2023 data-center estimate and call it a same-year water budget. The figures do tell us we are nowhere near the same scale. They do not tell us whether my town has room for the next building.
+
+A local inquiry has to follow the supply. "Municipal," "potable," and "groundwater" could all describe the same gallon. The city delivered it, it was treated for drinking, and it came from a well. Add those categories as separate supplies and you have counted one gallon three times. Likewise, the meter recording delivery does not tell you how much evaporated. You need the water leaving the site and any change in stored water too.
+
+Returning water has consequences of its own. EPA documents fish and other organisms being trapped or drawn into cooling-water intakes. The destination and condition of discharged water matter. "It comes back" is not enough information.
+
+Neither is "water cycles." Of course it does. The question is whether this source can replenish when people need it. Rain somewhere else does not settle the capacity of the system supplying a particular community this summer.
+
+I am also done with asking whether the person complaining eats beef or drinks almond milk. Find out whether their allegation is right. Their groceries will not tell you how much dependable supply remains.
+
+Virginia's legislative audit described then-current data-center water use as sustainable under the arrangements it examined. It also found substantial differences between facilities and identified growth and management concerns. I would take that finding seriously. If a critic tells residents the audit found an existing crisis everywhere, I would ask them to show where. If a developer presents it as permission for every future campus, I would ask the same question.
+
+What I want next is the hard-day calculation. Include the other customers. Include the projects already promised service. If there is a heat wave, restricted supply, or equipment out of operation, how much can the utility actually deliver?
+
+That is not something I can answer from my chair by declaring the company good or bad. Somebody has to do the engineering, and the people being asked to accept the commitment need a way to examine it.
+
+The backup is part of the proposal
+
+The Quincy case caught my attention because it contains an actual system, an actual improvement, and a condition that an annual percentage could hide.
+
+EPA describes a reuse utility in Quincy, Washington, developed after minerals in cooling water caused problems for equipment and wastewater treatment. Microsoft pays the capital and operating costs under the reported arrangement; the city owns and operates the utility. EPA estimates that reuse avoided about 138 million gallons a year of potable demand.
+
+I would count that. There is no reason to refuse credit for an improvement because a company paid for it.
+
+Evaporation and brine management still require makeup water. During a hot, dry period in 2021, canal-water pumps were shut off and the system switched to potable groundwater. The backup kept it running. It also changed which source was carrying the demand.
+
+So when the next proposal advertises reclaimed water, I want to know what happens when that supply is unavailable. How long can the replacement carry the facility? Who else will need it at the same time? Those answers should be in the proposal before the community is relying on them.
+
+Quincy is not proof that reuse is a mistake. It is a good reason to inspect the whole arrangement. The minerals mattered. Treatment mattered. Somebody had to pay for pipes and equipment. Having enough raw gallons did not make those requirements disappear.
+
+There is a related question about restoration credits. A company can fund a useful water project and still consume water from a stressed source. Before calling the project an offset, I would want to know where the benefit arrives, when, and what would have happened without the funding. A gallon credited later somewhere else is not available to the local utility today.
+
+Build something that fits the source
+
+The machines have to get rid of heat. That does not dictate one cooling system.
+
+DOE's guidance separates the loop carrying heat away from the equipment from the system that finally releases it outside. That distinction is easy to lose in an advertisement. A closed liquid loop inside can still dump heat into an evaporative tower. Direct-to-chip cooling can also use dry or hybrid heat rejection. I need to know where the heat finally goes before the words "liquid cooled" tell me much about water demand.
+
+Microsoft announced a new non-evaporative design in December 2024. Its own description included a staged rollout, an electricity tradeoff, and continuing administrative water use. That is a design worth examining. It was not evidence that the entire existing fleet had already stopped consuming water for cooling.
+
+I would rather see companies competing to solve the problem than competing to describe the same equipment with cleaner-sounding words. If a design takes pressure off a constrained source, show its operating result. Include the extra electricity and what happens when the weather is difficult.
+
+The trade can go in either direction. Saving water at the site might add some upstream through additional electricity, but there is no rule that every liter saved becomes another liter at a power plant. We calculated examples to see where that break-even falls. They remain examples; I am not presenting them as measurements of anyone's cooling equipment.
+
+There are costs outside the water system as well. Backup engines and turbines need their actual operating hours, fuel, controls, and exposure examined. A maximum permitted emission is not a measurement of what the engines emitted during the year. Heat recovery may be useful where there is someone who can use the heat, but warm exhaust does not become an avoided heating bill by itself.
+
+The growth is what makes this urgent to get right. The IEA estimates that global data-center electricity demand rose 17% in 2025, with AI-focused demand rising 50%. Better efficiency was happening during the same expansion.
+
+Suppose each task takes half as much energy but there are three times as many tasks. Total consumption rises by half. That is arithmetic. Establishing how much of the extra demand was caused by the efficiency improvement takes more work.
+
+I care about the total because that is what the supply has to carry. I care about efficiency because it determines how much useful work we can get inside the limits. Where the source cannot support more demand, put that limit in an enforceable arrangement. An impressive efficiency percentage does not give the next customer water that is not there.
+
+Those 22 minutes belong to somebody
+
+I am not willing to treat the work as worthless until somebody proves the entire industry uses fewer resources than a world without it. We do not require a library or a playground to have a negative environmental footprint before recognizing a reason to provide it.
+
+There is research showing useful results. In one deployment involving 5,172 customer-support agents, assistance increased issues resolved per hour by about 15% on average. Less experienced workers gained more. That is evidence from a real workplace. It is not an environmental saving we can transfer to every other use of the same technology.
+
+The fact that help reached less experienced people is part of why I care. I want useful expertise available to somebody who is still learning, somebody working alone, somebody who cannot hire a specialist. Access should not depend entirely on what they could afford before the tool existed.
+
+The clinical documentation trial is closer to my own work. Sixty-six outpatient practitioners took part in a 24-week randomized rollout. Time spent on notes fell by 0.36 hours per normalized eight hours of patient time. That is 21.6 minutes. The trial also found reduced exhaustion and disengagement; its professional-fulfillment result did not meet the study's significance criterion.
+
+It was not a trial of my nursing role. I am interested because I know care and documentation both need attention, and I have a family to get home to. Twenty-two minutes can matter without anyone losing a job. It can matter if the practitioner gets to finish with less work hanging over them.
+
+Multiply the point estimate by twenty comparable days and you get 7.2 hours. That is my extrapolation from the reported result, not another result the researchers measured. The reduction in exhaustion counts. I am not going to take that credit away because a manager might later make a bad decision.
+
+If management uses the time to schedule more visits, that changes the job. Before treating every released minute as extra capacity, I would want to see whether staff still have time to review the note and deal with mistakes. Measure the new workload, the corrections, and what happens to staff well-being. The trial did not establish what happens after quotas change. I still care who gets the benefit of the time released.
+
+A draft still has to be right. A medication time cannot be supplied because the sentence looks unfinished without it. Privacy and consent stay in the workflow. So does responsibility for what somebody will later read and rely on.
+
+The trial measured note time from electronic-record logs, including the work captured by those logs. I am not going to subtract an invented second checking penalty and pretend I disproved its finding. It did not establish improved patient outcomes. Both the benefit and that unanswered question can be stated plainly.
+
+There are cases where the work got slower. METR assigned 246 tasks from sixteen experienced developers to conditions allowing or disallowing AI. AI-allowed tasks took 19% longer in the early-2025 experiment. The developers were allowed to choose tools, not forced to use them. METR's later follow-up describes changes in tools and participation that complicate comparisons with later performance.
+
+That result would matter to me if I were deciding what to put into my own workflow. I would test the work I actually do, rather than assume another person's gain or loss automatically applies.
+
+Here is the bottleneck problem in an example. Make the 20% spent on one activity twice as fast and you save 10% of the original total. Add checking equal to 3% of original time and the saving is 7%. If the added work takes 12%, the complete process is 2% slower. Those percentages are hypothetical. They explain why I want the end-to-end measurement, not just the impressive part of a demonstration.
+
+The person doing the rest of the work deserves to be included in the claim. So does the person whose load genuinely got lighter. I am not going to erase either one to keep an argument simple.
+
+What did it replace?
+
+Sometimes nobody would have done the task. Then there is no manual process to subtract from the footprint.
+
+That new task might be useless. It might let somebody understand a document, learn something, write a story, or make a tool they could not otherwise build. I want room for people to decide what is worth doing with their own time. I am not interested in giving a government office or dominant platform the job of deciding which ordinary uses are sufficiently productive to deserve access.
+
+Some of the value is in attempting work we could not otherwise do at a useful scale. AlphaFold 3 improved predictions of structures and interactions among proteins and other biomolecules in its published evaluations. Counting fictional hours of a person solving the same problem by hand would miss the point. I would ask what the new capability lets researchers do and how well its predictions hold up against experimental evidence.
+
+That research earns its own credit. It does not supply an environmental offset for every unrelated commercial workload sharing a provider. An advertising service cannot borrow a medical-research result as proof of its own benefit. I would not call a molecular prediction a cure either. Keep the claim attached to the work that earned it.
+
+When a company claims it saved resources, though, the saving needs an actual explanation. If the old workflow keeps running, it still consumes resources. If the commute continues, the trip has not been avoided. Finishing a task faster does not automatically switch off the building's ventilation.
+
+Existing avoided-emissions methods already require a comparison with what would otherwise happen. The result can be positive or negative. Buying the tool is not enough to establish the difference.
+
+The financial claim needs care too. Released time multiplied by a salary does not necessarily become money the employer no longer spends. There may be less overtime, more useful service, or simply different work during the same paid hours. I want the outcome named before it is assigned a dollar value.
+
+And if more output becomes higher expectations while the worker's day is no easier, I am not calling the worker's share of the benefit settled. People affected by changes in their work need a practical route forward. I would rather help someone acquire options than make them absorb every consequence and then call their difficulty resistance to progress.
+
+We have not measured the net environmental benefit of all AI expansion. A few successful applications cannot stand in for that missing calculation. Nor does the missing calculation give us a reason to assign zero value to every service that already helps someone.
+
+I work on these systems. Check mine too.
+
+I want more control over the tools I use and the information I give them. That is part of my interest in open, inspectable systems and in being able to run something I control where that makes sense. It does not automatically make local equipment efficient or open software safe. It gives me choices about whose system I am depending on and what it is allowed to do.
+
+The permission matters. A system can be capable of making a change without being authorized to make it. Calculating the right answer does not grant access to a patient's record or the right to make a decision for them.
+
+Putting another model in charge of checking the first one does not resolve that by itself. Research on model judges has found useful agreement with human preferences on particular benchmarks, alongside biases involving answer order, verbosity, and preference for a model's own output. That research did not establish that model agreement makes every factual claim true.
+
+If a note gives a medication time, what did the checker compare it against? If the answer is only the other model's explanation, we still do not have the time. Go back to the authorized record. Leave the gap visible if the record cannot fill it.
+
+I do not need a person manually repeating every calculation a computer can reliably check. An external specification, an appropriate executable test, or an observed result can provide evidence. NIST's voluntary framework calls for testing, monitoring, and independent assessment. It does not require a human signature on every output.
+
+Where professional review is needed, include the person's time. Where a person has to finish the job, call the result hybrid. Correctly rejecting an invalid proposal can complete a validation assignment. Stopping before a requested execution is complete leaves an execution unfinished. Those are different jobs; the system cannot rename the assignment afterward to improve its score.
+
+Every attempt, retry, tool, and necessary check stays in the resource total. Count actual verified successes below it. With none, cost per success is undefined. I also want to know about accepted errors and what happened after somebody relied on them. A favorable average does not excuse a serious breach of an authorization boundary.
+
+People and conventional software fail too. Give the alternatives the same task and constraints. If a simpler method gets the required work done, use it. I have no interest in defending more agents because I spent time designing them.
+
+Who agreed to the bill?
+
+I do not resent a company making money from a useful service. I resent being told a private forecast is a sufficient reason for everybody else to accept an obligation they did not understand.
+
+Before a large commitment of shared infrastructure, I would want the service and financing terms made understandable. What happens if the demand arrives late or never arrives? What happens after a sale? Who actually signed the guarantee?
+
+The answer cannot just be the familiar name on the presentation. Follow it to the entity responsible and the agreement that can be enforced.
+
+I am not asking every newcomer to put the price of a whole substation in cash on the table. I want the security tied to the unpaid cost other customers could be left carrying at each stage. Work out the project's fair share, deduct what it has paid, and recognize protection already in place. Do not demand two guarantees for the same exposure.
+
+A five-megawatt project using available capacity and a 500-megawatt campus needing dedicated infrastructure are different proposals. Those sizes are examples, not exemptions: a small load can still strain a constrained system. I would consider staged contributions or credible bank-backed support where they protect the same obligation, and reduce the required security as the uncovered cost falls. Related phases of one campus still belong in the combined assessment. Breaking an application into smaller pieces should not make its shared risk disappear.
+
+That does not mean every network improvement should be charged entirely to the newest customer. An upgrade may genuinely help existing users. FERC's June 2026 discussion addresses stranded-investment protections alongside continued sharing of many network-upgrade costs. It is an explanation of regulatory proceedings, not a finding that every current data center is subsidized.
+
+I want the costs and benefits allocated for a reason. Announced investment, gross tax revenue, and actual public return are different things. Include exemptions, public services, infrastructure obligations, and what the developer paid before telling residents how good the deal was.
+
+Apply the same scrutiny to other large customers. A factory's familiar product does not make its demand disappear, and the word AI does not justify a special punishment. The operating load, water source, financial exposure, and consequences are the reasons I would use to distinguish proposals.
+
+A town cannot manage an upstream basin or an interconnected grid by itself. The relevant utility, state, and regional authorities need to see cumulative commitments. Independent technical advice should not be something only wealthy communities can obtain.
+
+Otherwise, imagine a proposal moving from a place that can afford to question it to a place that cannot. I would not consider the problem solved because it stopped being my neighbor's problem. That is a reason to examine shared standards and actual enforcement powers, not an accusation that every relocation is improper.
+
+There is a legitimate role for government in protecting people who did not negotiate the developer's deal. I would first ask whether the existing authorities can do it, where they fall short, and what specific power or capacity is missing. Another layer of forms is not evidence of another layer of protection.
+
+The restriction needs a reason too
+
+If someone wants to restrict access, stop a project, or make a tool too expensive for an independent developer to offer, I want the justification. "Safety" and "environment" are not answers on their own.
+
+What harm is the requirement addressing? Is there evidence it will help? Could the same protection be achieved without putting the market beyond everybody except the largest firms?
+
+I worry about concentrated power using oversight to protect itself from competition. That concern does not prove a particular rule was bought. A meeting, donation, or relationship is a lead to investigate, not the act itself. I need evidence from the outsider making the accusation just as much as from the institution denying it.
+
+I would rather have competing tools, methods people can inspect, and testing that can produce an unfavorable result than hand one company or office final authority over who gets access to expertise. Specific dangerous capabilities can justify restrictions. Make the case for the capability and the consequence instead of treating basic research, ordinary use, and consequential autonomous action as the same activity.
+
+For a physical project, define what has to be established before examining the application. A reasonable forecast can test difficult conditions and other commitments. Nobody can supply an exact twenty-year dispatch record for a future power system. Demanding one would be a ban dressed up as a request for evidence.
+
+A responsible applicant should be able to meet a clear standard, obtain a decision, and know what governs expansion. I would settle the tests and the authority to enforce them before the first connection.
+
+Suppose a campus starts with 50 megawatts and seeks another 150 later. Those are illustration numbers, not thresholds for every town. The first stage still needs a supportable supply before it opens. Approving it should not quietly grant an unconditional right to the rest.
+
+Before the next phase connects, require the agreed evidence: metered total and peak water demand by source, electricity and cooling performance, the fallback supply, and capacity remaining after other commitments. A low water-per-kilowatt-hour figure is not enough if total demand exceeds the agreed limit. Set the observation period and credible tests for difficult conditions the first phase has not yet encountered. A mild season cannot answer the drought question.
+
+Name who verifies the result and who authorizes expansion. Meeting the tests should lead to a decision on time. Missing them should hold the unearned expansion and trigger the agreed correction process. Future capacity should have reservation terms, deadlines, and financial backing so it is not tied up indefinitely while other applicants wait.
+
+For an operating facility, write the curtailment and emergency procedures with the relevant utility and grid operator. An improvised shutdown is not a safety plan. The arrangement needs a lawful way to reduce demand, protect essential functions, and review what failed. Where the requirements cannot be met, the authority responsible should explain the refusal rather than keep moving the target.
+
+The people affected should be able to challenge that decision, including a decision to approve. The applicant should have a route to challenge a refusal. I do not think each resident has a personal veto over every utility customer. I do think public commitments need a legitimate process and reasons that can be examined.
+
+Privacy stays protected in that process. I would not put a patient's chart online to prove a documentation tool was checked. Authorized independent reviewers can inspect protected records while the public gets the methods, quantities, obligations, and findings needed to assess the claim. The reviewer has to be allowed to report something the sponsor does not want to hear.
+
+Where I land
+
+I want useful AI developed. I want people without much money or institutional standing to benefit from it. I also want someone affected by the decision to have a way to question it and obtain a remedy when the promise fails.
+
+The company, the expert, and the government official all have work to show. So do I. My use of AI does not require me to defend an unsupported water claim. My concern about a shared supply does not require me to oppose a project that can responsibly use it.
+
+The number in the post held up as a historical estimate. Some of my first explanations did not. The further conclusion about a particular community still needs that community's records.
+
+If the supply works, the obligations are enforceable, and the evidence supports the proposal, I want it allowed to proceed. I want the next person with a worthwhile idea to have a fair chance at building something too, rather than discover that access and permission have already been reserved for the companies that got there first.
+
+
+Research and drafting assisted by AI. Sources and calculation notes are supplied separately.

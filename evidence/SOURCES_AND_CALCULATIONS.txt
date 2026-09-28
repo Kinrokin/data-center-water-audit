@@ -1,0 +1,215 @@
+Sources and calculation notes
+
+For “About That 228 Billion Gallons” | September 25, 2026 | Reading edition 1.1
+
+Reading this companion
+
+The article is an evidence-based opinion piece. Observations, models and estimates support its factual claims. Proportional financial assurance, worker-benefit questions and staged approval are policy judgments, not claims that one legal regime already requires these arrangements everywhere.
+
+The original nineteen-source reading-edition record is retained. This update rechecked the clinical trial and the FERC material relevant to the new passages and adds AlphaFold 3 and the FERC fact sheet. The remaining inherited source descriptions were not all freshly audited. No meter survey, clinical intervention, field inspection, jurisdiction-specific legal certification or independent peer-review panel was performed. Publication and observation dates remain distinct.
+
+How the article connects to its evidence
+
+Where the 228 billion came from — References 1–2. The national figures reconstruct the historical 2024 model for 2023 operations. The electricity-source component remains part of the operational account. The 500-MW example is continuous actual facility demand, not reserved capacity.
+
+Whose water are we talking about? — References 1, 3–5. The national comparison mixes periods and coverage. It describes scale, not local capacity or a complete industry ranking. Virginia’s findings concern the conditions examined by that audit.
+
+The backup is part of the proposal — Reference 6. The reuse, financing and fallback account concerns Quincy. It establishes neither a nationwide fallback rate nor zero evaporative use.
+
+Build something that fits the source — References 7–11. Engineering options, operator announcements and estimated demand growth have different evidence types. No hypothetical cooling comparison is described as measured vendor performance.
+
+Those 22 minutes belong to somebody — References 12–15. The clinical finding retains its measured benefit. The article does not claim that an increased quota necessarily reverses that benefit or eliminates review capacity. Such changes require a new implementation assessment. The 20-day time figure is an extrapolation.
+
+What did it replace? — References 18 and 20. Capability expansion and avoided-resource accounting answer different questions. AlphaFold 3 provides a specific prediction result; neither clinical cures nor a provider-wide environmental offset follow from that result.
+
+I work on these systems. Check mine too. — References 16–17. Internal model agreement does not by itself provide independent validation. The proposed accounting includes failed work and distinguishes safe validation from unfinished execution.
+
+Who agreed to the bill? — Reference 19. The proposed financial standard concerns remaining attributable exposure, with shared benefits and existing protection reconciled. It does not prescribe 100% upfront cash, a universal dollars-per-MW rule, or an exemption below five megawatts. The available instruments and authority require review under the applicable law and tariff.
+
+The restriction needs a reason too; Where I land — References 19 and 21 provide regulatory context, not authority for the article’s proposed contract. The illustrative 50-MW first stage and additional 150 MW are not nationally applicable thresholds or a real project approval. Gate design includes actual source-specific total and peak demand, fallback, cumulative capacity, defined review and reservation terms. Operating curtailment is distinct from denying unearned expansion; it requires an authorized, safe procedure.
+
+Calculated examples and what they do not show
+
+Historical reconstruction: (176 × 4.52 + 66) billion liters / 3.785411784 = 227.589507 billion U.S. gallons. Direct: 17.435355 billion. Electricity-attributed: 210.154151 billion. The precision is arithmetic only.
+
+Annualized context: 227.589507 billion gallons / 365 = 623.532895 million gallons/day. Relative to 75,698 million gallons/day: 0.823711%. Different-year and coverage caveats remain.
+
+Continuous-load illustration: 500 MW × 24 × 365 / 1,000,000 = 4.38 TWh. This assumes a constant actual facility draw and a 365-day year.
+
+Clinical time conversion: 0.36 hours × 60 = 21.6 minutes. Multiplying by 20 assumed comparable days gives 7.2 hours. No measured monthly study total is claimed.
+
+Workflow illustration: 0.80 + 0.20/2 + 0.03 = 0.93 of baseline time; changing added work to 0.12 gives 1.02. These are not extra penalties to deduct from a study that already measures complete work.
+
+Scale illustration: 0.5 × 3 = 1.5, or 50% more resource use. The identity does not identify the causal demand response to efficiency.
+
+The phase example uses 50 MW followed by another 150 MW, or 200 MW in total. Megawatts do not determine the water allowance. No observation period, curtailment rate or amount of financial security is invented for an unnamed source system.
+
+Source register
+
+1. 2024 United States Data Center Energy Usage Report
+
+Lawrence Berkeley National Laboratory / U.S. Department of Energy. December 2024; modeled 2023 operations.
+
+Water and Emission Impacts, printed pages 55–58. Historical model: 176 TWh, 66 billion liters direct consumption, 4.52 L/kWh electricity-source intensity. Not a national meter census or AI-only inventory. Exact 2028 figure endpoints are not used.
+
+https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf
+
+2. Spatially and Temporally Detailed Water and Carbon Footprints of U.S. Electricity Generation and Use
+
+Siddik, Shehabi, Rao and Marston; Water Resources Research. 2024.
+
+Water IMPACT: electricity flows and source-water coefficients. Average attribution differs from the causal response to an added load; hourly electricity data do not make every water input an hourly observation.
+
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR038350
+
+3. Water use across the conterminous United States, water years 2010–20
+
+U.S. Geological Survey. January 2025; observation/model period 2010–2020.
+
+DOI 10.3133/pp1894D. Modeled CONUS assessment. Different-year benchmark used for scale, not a same-year sector share.
+
+https://www.usgs.gov/publications/water-use-across-conterminous-united-states-water-years-2010-20
+
+4. Cooling Water Intakes
+
+U.S. Environmental Protection Agency. Agency guidance.
+
+Intake impingement and entrainment describe a mechanism, not harm established at an unnamed facility.
+
+https://www.epa.gov/cooling-water-intakes
+
+5. Data Centers in Virginia: study summary
+
+Virginia Joint Legislative Audit and Review Commission. December 2024.
+
+Then-current water sustainability assessment, differing local demands and future concerns. Not approval of every future proposal.
+
+https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp
+
+6. Water Reuse Case Study: Quincy, Washington
+
+U.S. Environmental Protection Agency. Includes 2021 operations.
+
+Utility financing; estimated 138 million gallons/year avoided potable demand; makeup supply and 2021 canal-to-groundwater switch. Avoided potable demand is not zero evaporation. The source page’s inconsistent 2.1-billion-gallon/8-million-liter conversion is not used.
+
+https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington
+
+7. Cooling Water Efficiency Opportunities for Federal Data Centers
+
+U.S. Department of Energy, FEMP. Engineering guidance.
+
+Cooling stages, WUE/PUE, blowdown and cooling alternatives. Design options are not evidence of realized performance at a named facility.
+
+https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers
+
+8. Sustainable by design: Next-generation datacenters consume zero water for cooling
+
+Microsoft. December 9, 2024. Operator announcement.
+
+Staged deployment; administrative water use and electricity tradeoff. Not zero lifecycle water or proof of fleet-wide completion.
+
+https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/
+
+9. Clean Air Act Resources for Data Centers
+
+U.S. Environmental Protection Agency. Agency guidance.
+
+Stationary engines, turbines and operating requirements. Actual emissions and exposure require operating data.
+
+https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers
+
+10. Technology Changes, but Energy Efficiency Principles Remain Steadfast in Data Center Design
+
+U.S. Department of Energy, FEMP. Engineering guidance.
+
+Efficiency and heat recovery. Recoverable heat is not automatically measured displacement of other heating.
+
+https://www.energy.gov/cmei/femp/articles/technology-changes-energy-efficiency-principles-remain-steadfast-data-center
+
+11. Key Questions on Energy and AI: Executive summary
+
+International Energy Agency. 2026; estimates for 2025.
+
+Estimated global data-center electricity growth of 17% and AI-focused growth of 50%. Not an indefinitely exponential law or a new U.S. water forecast.
+
+https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
+
+12. Generative AI at Work
+
+Brynjolfsson, Li and Raymond; Quarterly Journal of Economics. 2025.
+
+Staggered deployment involving 5,172 agents. Approximately 15% higher issues resolved per hour on average, with heterogeneous effects. Not a resource-savings study or an economy-wide randomized trial.
+
+https://doi.org/10.1093/qje/qjae044
+
+13. A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being
+
+Afshar and colleagues; NEJM AI. Online November 26, 2025; December 2025 issue.
+
+24-week stepped-wedge trial; 66 ambulatory physicians/advanced practice practitioners. Note-time reduction 0.36 hours per normalized eight hours of patient time; exhaustion/disengagement improved; professional fulfillment did not meet the co-primary threshold. No quota-change intervention or downstream patient-outcome result is established here. Full text revisited September 25, 2026.
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/
+
+14. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+
+METR. July 10, 2025.
+
+16 developers, 246 tasks; AI-allowed tasks took 19% longer. Access was randomized; use was not compulsory.
+
+https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+
+15. We are Changing our Developer Productivity Experiment Design
+
+METR. February 24, 2026.
+
+Changes in tools, participation and time measurement limit direct extrapolation of the earlier result.
+
+https://metr.org/blog/2026-02-24-uplift-update/
+
+16. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+
+Zheng and colleagues; NeurIPS 2023 Datasets and Benchmarks.
+
+Useful human-preference agreement on studied benchmarks alongside position, verbosity and self-enhancement biases. Preference agreement is not universal factual verification.
+
+https://arxiv.org/abs/2306.05685
+
+17. AI Risk Management Framework: Core
+
+National Institute of Standards and Technology. AI RMF 1.0.
+
+Voluntary, context-sensitive testing and monitoring guidance. Not a certification of a named system or mandatory human approval of every output.
+
+https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+
+18. Estimating and Reporting Avoided Emissions
+
+GHG Protocol. Methodological working paper.
+
+Reference scenarios and comparative impacts. Useful new capability is not automatically an avoided-resource result; productivity alone does not establish physical substitution.
+
+https://ghgprotocol.org/estimating-and-reporting-avoided-emissions
+
+19. Commissioner See’s Remarks on the Large Load Show Cause Orders, E-7 to E-12
+
+Federal Energy Regulatory Commission. June 18, 2026.
+
+Explains shared-cost responsibilities, stranded-asset risk and avoiding duplicate security where retail credit support already exists. Remarks and proceedings are not a universal retail tariff. Revisited September 25, 2026.
+
+https://www.ferc.gov/news-events/news/commissioner-sees-remarks-large-load-show-cause-orders-e-7-e-12-june-18-2026-open
+
+20. Accurate structure prediction of biomolecular interactions with AlphaFold 3
+
+Abramson and colleagues; Nature 630, 493–500. May 8, 2024.
+
+Original research on structure/interactions prediction, with benchmark improvements and stated limitations. Not a claim that a prediction itself cures a disease or establishes sector-wide environmental benefits. Primary text consulted September 25, 2026.
+
+https://www.nature.com/articles/s41586-024-07487-w
+
+21. Fact Sheet: FERC Takes Action to Supercharge America’s Grid for Efficiency, Reliability, and a Bold Energy Future
+
+Federal Energy Regulatory Commission. June 18, 2026.
+
+Official explanation of region-specific show-cause proceedings, flexible-load service and preserved state retail/siting roles. It does not enact the article’s illustrative 50/150-MW water-performance gate. Consulted September 25, 2026.
+
+https://ferc.gov/news-events/news/fact-sheet-ferc-takes-action-supercharge-americas-grid-efficiency-reliability-and

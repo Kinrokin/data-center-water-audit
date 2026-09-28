@@ -1,0 +1,42 @@
+name: Build publication artifacts
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "article/ARTICLE_FOR_COPYING.txt"
+      - "evidence/SOURCES_AND_CALCULATIONS.txt"
+      - "evidence/SOURCE_REGISTER.json"
+      - "analysis/reproduce_calculations.py"
+      - "tools/build_publication.py"
+      - "index.html"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install publication dependencies
+        run: python -m pip install --disable-pip-version-check python-docx reportlab
+      - name: Verify arithmetic
+        run: python analysis/reproduce_calculations.py
+      - name: Build PDF, Word, and release manifest
+        run: python tools/build_publication.py
+      - name: Commit generated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add article/About_That_228_Billion_Gallons.pdf article/About_That_228_Billion_Gallons.docx evidence/Sources_and_Calculations.pdf RELEASE_SHA256.txt
+          if git diff --cached --quiet; then
+            echo "Generated artifacts already current."
+          else
+            git commit -m "Build publication artifacts"
+            git push
+          fi

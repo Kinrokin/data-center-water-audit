@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="About That 228 Billion Gallons — Robert Thomas King's source-backed audit of U.S. data-center water, power, utility capacity, and AI workload claims.">
+<title>About That 228 Billion Gallons — Robert Thomas King</title>
+<style>
+:root{color-scheme:light dark;--paper:#faf9f6;--ink:#171717;--muted:#606060;--rule:#d6d3cd;--link:#145da0;--panel:#f1efe9}
+@media(prefers-color-scheme:dark){:root{--paper:#151515;--ink:#ededed;--muted:#b3b3b3;--rule:#3b3b3b;--link:#8cc8ff;--panel:#202020}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.72}
+header,main,footer{width:min(900px,calc(100% - 36px));margin:auto}
+header{padding:64px 0 26px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(2.2rem,7vw,4.8rem);line-height:.98;letter-spacing:-.035em;margin:0 0 18px}
+.byline{font-family:system-ui,sans-serif;color:var(--muted);font-size:.92rem}
+nav{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap}
+nav a{font:600 .86rem system-ui,sans-serif;text-decoration:none;color:var(--ink);border:1px solid var(--rule);padding:8px 11px;border-radius:999px}
+main{padding:38px 0 72px}article{font-size:clamp(1.08rem,2.2vw,1.25rem)}
+article p{margin:0 0 1.15em}article h2{font-size:clamp(1.55rem,4vw,2.15rem);line-height:1.15;margin:2.2em 0 .7em}
+.lede{font-size:1.16em}.note{font:0.92rem/1.55 system-ui,sans-serif;color:var(--muted);background:var(--panel);border-left:3px solid var(--rule);padding:15px 18px;margin:28px 0}
+footer{border-top:1px solid var(--rule);padding:24px 0 52px;font:0.88rem/1.5 system-ui,sans-serif;color:var(--muted)}
+a{color:var(--link)}#status{font-family:system-ui,sans-serif;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+<h1>About That 228 Billion Gallons</h1>
+<div class="byline">Robert Thomas King · September 25, 2026</div>
+<nav>
+<a href="article/About_That_228_Billion_Gallons.pdf">Article PDF</a>
+<a href="article/About_That_228_Billion_Gallons.docx">Word edition</a>
+<a href="evidence/Sources_and_Calculations.pdf">Sources & calculations PDF</a>
+<a href="evidence/SOURCE_REGISTER.json">Source register</a>
+<a href="analysis/reproduce_calculations.py">Reproduce the math</a>
+<a href="https://github.com/Kinrokin/data-center-water-audit">Repository</a>
+</nav>
+</header>
+<main>
+<div class="note">This is the public reading edition. The prose stays readable here; the source register, calculations, definitions, limitations, and reproducible arithmetic remain separately inspectable in the repository.</div>
+<article id="article"><p id="status">Loading the article…</p></article>
+</main>
+<footer>Research and drafting assisted by AI. Sources and calculation notes are published with the article so readers can inspect the evidence independently.</footer>
+<script>
+const headings=new Set([
+"Where the 228 billion came from",
+"Whose water are we talking about?",
+"The backup is part of the proposal",
+"Build something that fits the source",
+"Those 22 minutes belong to somebody",
+"What did it replace?",
+"I work on these systems. Check mine too.",
+"Who agreed to the bill?",
+"The restriction needs a reason too",
+"Where I land"
+]);
+fetch("article/ARTICLE_FOR_COPYING.txt").then(r=>{if(!r.ok)throw Error(r.status);return r.text()}).then(t=>{
+ const lines=t.replace(/\r/g,"").split("\n"); const el=document.getElementById("article"); el.innerHTML="";
+ let buf=[]; let first=true;
+ function flush(){if(!buf.length)return; const p=document.createElement("p"); p.textContent=buf.join(" "); if(first){p.className="lede";first=false} el.appendChild(p); buf=[]}
+ for(let i=0;i<lines.length;i++){const s=lines[i].trim(); if(i<2)continue; if(!s){flush();continue} if(headings.has(s)){flush();const h=document.createElement("h2");h.textContent=s;el.appendChild(h);continue} buf.push(s)}
+ flush();
+}).catch(e=>{document.getElementById("status").textContent="The reading edition could not load. Open article/ARTICLE_FOR_COPYING.txt from the repository.";});
+</script>
+</body>
+</html>
