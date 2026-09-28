@@ -1,0 +1,4 @@
+10 arithmetic checks passed
+Direct / indirect / total, billion US gal: 17.435355456 / 210.154151092 / 227.589506548
+Daily million US gal: 623.532894651; irrigation benchmark percent: 0.823711187
+The assumptions remain assumptions. These checks establish arithmetic only.
