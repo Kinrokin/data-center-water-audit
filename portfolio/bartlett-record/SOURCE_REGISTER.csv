@@ -1,0 +1,19 @@
+ID,title,url,local_file,scope_and_limit
+P1,June 22 2026 City work-session packet,https://www.stjosephmo.gov/AgendaCenter/ViewFile/Minutes/_06222026-3330,primary/June22_2026_City_Packet.pdf,67-page original public scan; City chronology and independent financial audit are different source types
+P2,September 21 City and Bartlett statement,https://www.stjosephmo.gov/DocumentCenter/View/22248/Statement-on-Bartlett-Center-Changes-September-21-2026-PDF,primary/City_Bartlett_Statement_2026-09-21.pdf,Party account; not independent corroboration of private events
+P3,September 28 City United Way YMCA statement,https://www.stjosephmo.gov/DocumentCenter/View/22260/Statement-on-Horace-Mann-Future-September-28-2026-PDF,primary/City_UW_YMCA_Statement_2026-09-28.pdf,Tentative plan; not an executed agreement or permanent selection
+P4,September 28 regular Council agenda,https://www.stjosephmo.gov/DocumentCenter/View/22252/-September-28-2026-Agenda,primary/Council_Agenda_2026-09-28.pdf,Published snapshot; not evidence of meeting outcomes
+P5,City-posted procurement policy,https://www.stjosephmo.gov/DocumentCenter/View/8622/Procurement-Policy-PDF,primary/City_Procurement_Policy.pdf,Not a certified complete current-code compilation
+P6,September 25 public board resolution,https://www.kq2.com/wp-content/uploads/2026/09/Signed-formal-resolution-062526.pdf,primary/Bartlett_Public_Resolution_2026-09-25.pdf,Not filed SOS Articles or an AG receipt
+P7,July 10 2024 Attorney General SJSD letter,https://ago.mo.gov/wp-content/uploads/2024.07.10-St.-Joseph-School-District-Letter.pdf,primary/AG_SJSD_Letter_2024-07-10.pdf,Separate school-district inquiry; allegations not adjudicated
+T1,IRS-derived Bartlett annual-return index,https://projects.propublica.org/nonprofits/organizations/237116216,,Summary obtained; full PDF/XML downloads failed
+T2,FY2025 return wrapper,https://projects.propublica.org/nonprofits/organizations/237116216/202610519349300211/full,,Wrapper not the native return
+T3,FY2025 XML attempt,https://projects.propublica.org/nonprofits/download-xml?object_id=202610519349300211,,403 during capture; not obtained
+T4,FY2024 XML attempt,https://projects.propublica.org/nonprofits/download-xml?object_id=202510529349300816,,403 during capture; not obtained
+U1,United Way 2025 annual report,https://www.stjosephunitedway.org/sites/stjosephunitedway/files/2025AnnualReport_Digital.pdf,,Allocation calendar differs from Bartlett recognition year; native file not captured in this companion
+N1,KQ2 September 21 competing accounts,https://www.kq2.com/news/2026/09/21/bartlett-center-board-says-williams-resigned-williams-thats-not-accurate/,,Published attributed accounts; not original consents or condition
+N2,KQ2 September 28 transition announcement,https://www.kq2.com/news/2026/09/28/city-united-way-and-ymca-issue-plan-following-dissolution-of-bartlett-center/,,Reports joint release; not another independent witness
+L1,2 CFR 200.305 payment rules,https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/section-200.305,,Apply relevant award version and factual exceptions
+L2,24 CFR 570.502 CDBG requirements,https://www.ecfr.gov/current/title-24/subtitle-B/chapter-V/subchapter-C/part-570/subpart-J/section-570.502,,Rules and exceptions do not establish facts of a claim
+L3,RSMo 355.681 dissolution articles,https://revisor.mo.gov/main/OneSection.aspx?section=355.681,,Statute is not evidence Bartlett filed
+L4,RSMo 355.691 winding up,https://revisor.mo.gov/main/OneSection.aspx?section=355.691,,Dissolution does not automatically transfer title
