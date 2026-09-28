@@ -1,0 +1,103 @@
+[
+  {
+    "filename": "June22_2026_City_Packet.pdf",
+    "requested_url": "https://www.stjosephmo.gov/AgendaCenter/ViewFile/Minutes/_06222026-3330",
+    "accessed_utc": "2026-09-28T20:00:36.468039+00:00",
+    "status_code": 200,
+    "final_url": "https://www.stjosephmo.gov/AgendaCenter/ViewFile/Minutes/_06222026-3330",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 3547343,
+    "sha256": "c4a88af9cc3737a0ca14f77985ff9f5d83a257851be02279bb2b3785d6cc2bc7"
+  },
+  {
+    "filename": "City_Bartlett_Statement_2026-09-21.pdf",
+    "requested_url": "https://www.stjosephmo.gov/DocumentCenter/View/22248/Statement-on-Bartlett-Center-Changes-September-21-2026-PDF",
+    "accessed_utc": "2026-09-28T20:00:36.468530+00:00",
+    "status_code": 200,
+    "final_url": "https://www.stjosephmo.gov/DocumentCenter/View/22248/Statement-on-Bartlett-Center-Changes-September-21-2026-PDF",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 141945,
+    "sha256": "650ba4d14498c0e31a5c8502a7d38e6f06a2cdbbbf3ce5a6a1930c055dbbd381"
+  },
+  {
+    "filename": "City_UW_YMCA_Statement_2026-09-28.pdf",
+    "requested_url": "https://www.stjosephmo.gov/DocumentCenter/View/22260/Statement-on-Horace-Mann-Future-September-28-2026-PDF",
+    "accessed_utc": "2026-09-28T20:00:36.468832+00:00",
+    "status_code": 200,
+    "final_url": "https://www.stjosephmo.gov/DocumentCenter/View/22260/Statement-on-Horace-Mann-Future-September-28-2026-PDF",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 138794,
+    "sha256": "e954c757034cb5725c0b0234b7521423e5f5589796a27540e60d3ad4a1558ac1"
+  },
+  {
+    "filename": "Council_Agenda_2026-09-28.pdf",
+    "requested_url": "https://www.stjosephmo.gov/DocumentCenter/View/22252/-September-28-2026-Agenda",
+    "accessed_utc": "2026-09-28T20:00:36.469254+00:00",
+    "status_code": 200,
+    "final_url": "https://www.stjosephmo.gov/DocumentCenter/View/22252/-September-28-2026-Agenda",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 214124,
+    "sha256": "5c8f1af35b875255168d93361f1b2829a7f5166225992d3d96910d97c6da71b2"
+  },
+  {
+    "filename": "City_Procurement_Policy.pdf",
+    "requested_url": "https://www.stjosephmo.gov/DocumentCenter/View/8622/Procurement-Policy-PDF",
+    "accessed_utc": "2026-09-28T20:00:36.927105+00:00",
+    "status_code": 200,
+    "final_url": "https://www.stjosephmo.gov/DocumentCenter/View/8622/Procurement-Policy-PDF",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 133142,
+    "sha256": "f80bd0640141d2255536376f95d82027e3d6ee894eb87ef4a0ca43dd7c86c7a7"
+  },
+  {
+    "filename": "Bartlett_Public_Resolution_2026-09-25.pdf",
+    "requested_url": "https://www.kq2.com/wp-content/uploads/2026/09/Signed-formal-resolution-062526.pdf",
+    "accessed_utc": "2026-09-28T20:00:37.047252+00:00",
+    "status_code": 200,
+    "final_url": "https://www.kq2.com/wp-content/uploads/2026/09/Signed-formal-resolution-062526.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 738152,
+    "sha256": "a27a546b607607b47b1180bd2bca67665ff6394544029c551064d98e3d4a6614"
+  },
+  {
+    "filename": "AG_SJSD_Letter_2024-07-10.pdf",
+    "requested_url": "https://ago.mo.gov/wp-content/uploads/2024.07.10-St.-Joseph-School-District-Letter.pdf",
+    "accessed_utc": "2026-09-28T20:00:37.053879+00:00",
+    "status_code": 200,
+    "final_url": "https://ago.mo.gov/wp-content/uploads/2024.07.10-St.-Joseph-School-District-Letter.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded_not_yet_content_validated",
+    "bytes": 163189,
+    "sha256": "bae7f306a8b391a9aad7038644c96a3f99a98a03c9580cb98e95ce1c8cda9dd6"
+  },
+  {
+    "filename": "Bartlett_FY2025_Form990.xml",
+    "requested_url": "https://projects.propublica.org/nonprofits/download-xml?object_id=202610519349300211",
+    "accessed_utc": "2026-09-28T20:00:37.229309+00:00",
+    "status": "not_obtained",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "Bartlett_FY2024_Form990.xml",
+    "requested_url": "https://projects.propublica.org/nonprofits/download-xml?object_id=202510529349300816",
+    "accessed_utc": "2026-09-28T20:00:37.247387+00:00",
+    "status": "not_obtained",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "Bartlett_FY2024_Form990.pdf",
+    "requested_url": "https://projects.propublica.org/nonprofits/display_990/237116216/IRS%2F237116216_202406_990_2025042323377497",
+    "accessed_utc": "2026-09-28T20:00:37.360675+00:00",
+    "status_code": 200,
+    "final_url": "https://projects.propublica.org/nonprofits/display_990/237116216/IRS%2F237116216_202406_990_2025042323377497",
+    "content_type": "text/html; charset=utf-8",
+    "status": "not_obtained",
+    "error": "Response is not a PDF"
+  }
+]

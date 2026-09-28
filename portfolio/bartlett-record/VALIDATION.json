@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "check": "contribution_components_FY2024",
+      "actual": "720301",
+      "expected": "720301",
+      "passed": true
+    },
+    {
+      "check": "contribution_components_FY2025",
+      "actual": "207649",
+      "expected": "207649",
+      "passed": true
+    },
+    {
+      "check": "all_revenue_lines_FY2024",
+      "actual": "933797",
+      "expected": "933797",
+      "passed": true
+    },
+    {
+      "check": "all_revenue_lines_FY2025",
+      "actual": "469885",
+      "expected": "469885",
+      "passed": true
+    },
+    {
+      "check": "functional_expenses_FY2024",
+      "actual": "842679",
+      "expected": "842679",
+      "passed": true
+    },
+    {
+      "check": "functional_expenses_FY2025",
+      "actual": "733865",
+      "expected": "733865",
+      "passed": true
+    },
+    {
+      "check": "government_category_decline",
+      "actual": "321135",
+      "expected": "321135",
+      "passed": true
+    },
+    {
+      "check": "total_revenue_decline",
+      "actual": "463912",
+      "expected": "463912",
+      "passed": true
+    },
+    {
+      "check": "expense_decline",
+      "actual": "108814",
+      "expected": "108814",
+      "passed": true
+    },
+    {
+      "check": "net_result_2025",
+      "actual": "-263980",
+      "expected": "-263980",
+      "passed": true
+    },
+    {
+      "check": "cash_decline",
+      "actual": "-17170",
+      "expected": "-17170",
+      "passed": true
+    },
+    {
+      "check": "operating_cash_bridge",
+      "actual": "-13452",
+      "expected": "-13452",
+      "passed": true
+    },
+    {
+      "check": "nonlease_liability_change",
+      "actual": "1052",
+      "expected": "1052",
+      "passed": true
+    },
+    {
+      "check": "internal_revenue",
+      "actual": "380842.56",
+      "expected": "380842.56",
+      "passed": true
+    },
+    {
+      "check": "internal_budget_revenue",
+      "actual": "556699.28",
+      "expected": "556699.28",
+      "passed": true
+    },
+    {
+      "check": "candidate_carry",
+      "actual": "0.04",
+      "expected": "0.04",
+      "passed": true
+    },
+    {
+      "check": "candidate_rent_balance",
+      "actual": "8715.40",
+      "expected": "8715.40",
+      "passed": true
+    },
+    {
+      "check": "internal_accounting_deficit",
+      "actual": "-45621.28",
+      "expected": "-45621.28",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": "Arithmetic from research tables only. Candidate rent is not an authenticated ledger. Accounting deficit is not cash burn."
+}
