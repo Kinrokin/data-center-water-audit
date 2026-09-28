@@ -1,0 +1,32 @@
+field,category,description,example_or_unit
+facility_name,identity,Project or facility name,text
+project_phase,identity,Phase being evaluated,text
+status,identity,proposed approved construction operating retired,text
+site_location,identity,Publicly releasable location,text
+initial_electric_demand_mw,power,Initial requested or contracted demand,MW
+ultimate_electric_demand_mw,power,Maximum planned demand,MW
+measured_peak_electric_demand_mw,power,Observed peak once operating,MW
+annual_electricity_mwh,power,Observed annual electricity,MWh
+water_supplier,water,Utility or source provider,text
+source_type,water,groundwater surface reclaimed purchased mixed,text
+annual_water_delivery_gal,water,Annual delivered water,gallons
+peak_day_water_delivery_gal,water,Peak daily delivered water,gallons/day
+measured_consumption_gal,water,Measured or balanced consumptive loss,gallons
+return_flow_gal,water,Measured liquid return or discharge,gallons
+backup_water_source,water,Source used if normal supply is unavailable,text
+cooling_system,cooling,Evaporative dry hybrid direct-to-chip immersion etc,text
+cooling_design_peak_condition,cooling,Weather and load condition used for sizing,text
+existing_committed_capacity,capacity,Supply already committed before project,unit plus source
+firm_or_dependable_capacity,capacity,Dependable utility capacity under planning case,unit plus source
+phase_gate_metric,governance,Metric required before later expansion,text
+phase_gate_threshold,governance,Predefined threshold,text
+enforcement_authority,governance,Entity legally able to enforce the requirement,text
+binding_instrument,governance,Tariff permit contract ordinance statute etc,text
+project_driven_upgrade_cost_usd,finance,Estimated project-driven infrastructure cost,USD
+security_posted_usd,finance,Financial security already posted,USD
+minimum_payment_or_take_or_pay,finance,Contractual minimum payment or demand commitment,text
+transfer_or_sale_obligation,finance,Whether obligations survive sale or assignment,text
+source_document,evidence,Primary record supporting the row,URL or record identifier
+source_date,evidence,Date of source,YYYY-MM-DD
+evidence_class,evidence,measured executed agreement forecast scenario illustration,text
+notes,evidence,Important assumptions or caveats,text
