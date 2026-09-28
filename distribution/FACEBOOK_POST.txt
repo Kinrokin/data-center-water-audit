@@ -4,4 +4,4 @@ The number itself is legitimate under the cited Berkeley Lab model. It does not 
 
 I put the full article, source ledger, calculations, and reproduction script in one public repository so nobody has to take my word for any of it:
 
-[PUBLIC URL]
+https://github.com/Kinrokin/data-center-water-audit
